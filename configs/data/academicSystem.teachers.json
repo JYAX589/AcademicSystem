@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67d51885eb507e822d313f46"
+  },
+  "name": "Balan",
+  "surname": "carranza",
+  "username": "Profesor",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$KlFXW+31k6sO4oGFJyYJNg$gEwrOeY/Rxr9oVXLzCvvN9AzjdNufLge9twEZbjlmLY",
+  "email": "bcarranza@gmail.com",
+  "phone": "78945622",
+  "role": "TEACHER_ROLE",
+  "status": true,
+  "courses": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:04:53.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:29:00.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d51b7d6e57ea583d1c2d4d"
+  },
+  "name": "Elemer",
+  "surname": "Santos",
+  "username": "Thegoat",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$cHwzCwriESPqobs4Q1kwmQ$zS7zUR7/5MoL5UzjCfQJIesfKbUrsNsxFl9uUQmi5Cw",
+  "email": "Esantos@gmail.com",
+  "phone": "78945622",
+  "role": "TEACHER_ROLE",
+  "status": true,
+  "courses": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:17:33.918Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:21:14.670Z"
+  }
+}]

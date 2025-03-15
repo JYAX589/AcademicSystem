@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "67d51877eb507e822d313f42"
+  },
+  "name": "Josue",
+  "surname": "yax",
+  "username": "Javier",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$xdiIzYcTsmO19a+YRn/2yw$Zvr1rHsQmAFqgcPwDJ4zTjS+qd1xyfJ5Jo218wNiQIU",
+  "email": "jyax@gmail.com",
+  "profilePicture": null,
+  "phone": "11112222",
+  "role": "STUDENT_ROLE",
+  "status": true,
+  "courses": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:04:39.069Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:04:39.069Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d51a9d6e57ea583d1c2d49"
+  },
+  "name": "Jose",
+  "surname": "yax",
+  "username": "jyax",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RmeRtUFQanCLMK/pfd9FLA$/yfy/OY0zXKvlQJNYyZvsvonZW4SUaR/in45UVcM6Ps",
+  "email": "yaxjose@gmail.com",
+  "profilePicture": null,
+  "phone": "33335555",
+  "role": "STUDENT_ROLE",
+  "status": true,
+  "courses": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:13:49.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:20:07.100Z"
+  }
+}]

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67d519db6e57ea583d1c2d41"
+  },
+  "name": "matematica",
+  "teacher": {
+    "$oid": "67d51885eb507e822d313f46"
+  },
+  "students": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:10:35.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:20:43.205Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d51ca86e57ea583d1c2d5f"
+  },
+  "name": "Literatura",
+  "teacher": {
+    "$oid": "67d51885eb507e822d313f46"
+  },
+  "students": [],
+  "createdAt": {
+    "$date": "2025-03-15T06:22:32.843Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T06:22:32.843Z"
+  }
+}]

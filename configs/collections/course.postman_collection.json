@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "c0ca7dd8-7bf7-42c2-a807-88c20d1136c3",
+		"name": "course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37414058"
+	},
+	"item": [
+		{
+			"name": "registerCourse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\":\"67d4fd249e463fb694715c9e\",\r\n    \"courseId\":\"67d500aca95656bf8776b97b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/student/enrollInCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"student",
+						"enrollInCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "courseCreate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Literatura\",\r\n    \"teacherId\":\"67d51885eb507e822d313f46\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/course/addCourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"course",
+						"addCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/course/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"course",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

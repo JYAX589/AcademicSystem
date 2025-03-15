@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "3846fc76-4aec-4e9f-a823-5489ab278edc",
+		"name": "teacher",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37414058"
+	},
+	"item": [
+		{
+			"name": "teacherCreate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Elemer\",\r\n    \"surname\":\"Santos\",\r\n    \"username\":\"Thegoat\",\r\n    \"password\":\"12345678\",\r\n    \"email\":\"Esantos@gmail.com\",\r\n    \"phone\":\"78945622\",\r\n    \"role\":\"TEACHER_ROLE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/auth/registerTeacher/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"auth",
+						"registerTeacher",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/gestorAcademico/v1/teacher/findTeacher/67b40e9190d9c88a26cdeb7a",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/teacher/findTeacher/67d51885eb507e822d313f46",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"teacher",
+						"findTeacher",
+						"67d51885eb507e822d313f46"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/gestorAcademico/v1/teacher/addCourse/67b40e9190d9c88a26cdeb7a",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"matematica\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/course/updateCourse/67d519db6e57ea583d1c2d41",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"course",
+						"updateCourse",
+						"67d519db6e57ea583d1c2d41"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/gestorAcademico/v1/teacher/deleteTeacher/67b40e9190d9c88a26cdeb7a",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/teacher/deleteTeacher/67d51b7d6e57ea583d1c2d4d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"teacher",
+						"deleteTeacher",
+						"67d51b7d6e57ea583d1c2d4d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/teacher/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"teacher",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePassword",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"newPassword\":\"98765432\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestorAcademico/v1/teacher/updatePassword/67d51885eb507e822d313f46",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestorAcademico",
+						"v1",
+						"teacher",
+						"updatePassword",
+						"67d51885eb507e822d313f46"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
